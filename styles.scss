@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    width: 50%;
+    height: auto;
+}
+
+// above this line for container layout on page
+
+rect {
+    animation: disappear 1.5s -3s infinite both;
+}
+
+.circle {
+    transform-origin: center;
+    animation: pop 1.5s -3s infinite both;
+}
+
+@keyframes disappear {
+    30% {
+        width: 0%;
+    }
+    60% {
+    }
+    80% {
+        width: 0%;
+    }
+}
+
+@keyframes pop {
+    30% {
+        r: 0;
+    }
+    60% {
+    }
+    80% {
+        r: 0;
+    }
+}

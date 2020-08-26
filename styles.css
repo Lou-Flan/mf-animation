@@ -1,0 +1,74 @@
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container {
+  width: 50%;
+  height: auto;
+}
+
+rect {
+  -webkit-animation: disappear 1.5s -3s infinite both;
+          animation: disappear 1.5s -3s infinite both;
+}
+
+.circle {
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: pop 1.5s -3s infinite both;
+          animation: pop 1.5s -3s infinite both;
+}
+
+@-webkit-keyframes disappear {
+  30% {
+    width: 0%;
+  }
+  60% {
+  }
+  80% {
+    width: 0%;
+  }
+}
+
+@keyframes disappear {
+  30% {
+    width: 0%;
+  }
+  60% {
+  }
+  80% {
+    width: 0%;
+  }
+}
+
+@-webkit-keyframes pop {
+  30% {
+    r: 0;
+  }
+  60% {
+  }
+  80% {
+    r: 0;
+  }
+}
+
+@keyframes pop {
+  30% {
+    r: 0;
+  }
+  60% {
+  }
+  80% {
+    r: 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
