@@ -13,12 +13,12 @@ body{
 // above this line for container layout on page
 
 rect {
-    animation: disappear 1.5s -3s infinite both;
+    animation: disappear 1.5s -3s infinite;
 }
 
 .circle {
     transform-origin: center;
-    animation: pop 1.5s -3s infinite both;
+    animation: pop 1.5s -3s infinite;
 }
 
 @keyframes disappear {
